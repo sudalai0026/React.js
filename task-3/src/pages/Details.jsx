@@ -32,9 +32,11 @@ function Details() {
      {Details &&
              <div className="box2">
                  <img className="img" src={Details.image} />
+                 <div className="para">
                  <p><b>Releasedate:</b>{Details.releasedate}</p>
                  <p><b>Budget:</b>{Details.budget}</p>
-                 <p>Description:{Details.description}</p>
+                 
+                 <h2>Description:{Details.description}</h2></div>
              </div>
                };
            
