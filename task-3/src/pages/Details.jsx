@@ -7,12 +7,12 @@ import { useParams } from "react-router-dom"
 
 function Details() {
 
-    const [Details, setDetails] = useState([])
+    const [Details, setDetails] = useState(null)
     
     const {_id}=useParams();
 
     useEffect(() => {
-        axios.get('https://backend-crud-one.vercel.app/product/${_id}')
+        axios.get(`https://backend-crud-one.vercel.app/product/${_id}`)
             .then((res) =>
             setDetails(res.data))
 
@@ -29,14 +29,14 @@ function Details() {
 
             <div className="box1">
             
-     {Details.map((Details) =>
+     {Details &&
              <div className="box2">
                  <img className="img" src={Details.image} />
                  <p><b>Releasedate:</b>{Details.releasedate}</p>
                  <p><b>Budget:</b>{Details.budget}</p>
                  <p>Description:{Details.description}</p>
              </div>
-               )};
+               };
            
             </div>
         </>

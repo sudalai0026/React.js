@@ -9,8 +9,8 @@ function Home() {
 
     const [movies, setMovies] = useState([]);
     const navigate = useNavigate();
-    function Handledetails() {
-        navigate('/details/${_id}');
+    function Handledetails(_id) {
+        navigate(`/details/${_id}`);
     }
     useEffect(() => {
         axios
