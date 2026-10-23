@@ -1,0 +1,30 @@
+.box1 {
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  display: wrap;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  text-align: center;
+  background-color: aqua;
+  font-size: 2px;
+  padding: 10px;
+  
+}
+
+.img {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  left: -5px;
+
+
+}
+
+p {
+  font-size: 10px;
+
+}

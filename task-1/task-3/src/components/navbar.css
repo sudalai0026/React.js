@@ -1,0 +1,24 @@
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    gap: 25px;
+    position: relative;
+    top: 18px;
+    right:30px;
+}
+
+.navbox{
+    background: rgb(202, 202, 228);
+    height: 70px;
+    position: relative;
+    bottom: 20px;
+}
+
+.imga{
+    height: 20px;
+    width: 20px;
+    object-fit: contain;
+}
+

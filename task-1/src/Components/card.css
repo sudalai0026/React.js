@@ -1,0 +1,132 @@
+.card1{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+ .card1 img {
+    width: 120px;
+    height: 130px;
+    object-fit: contain;
+ }
+
+ .card1 h1 {
+    text-align: center;
+    color: aqua;
+    margin: 20px;
+ }
+
+  .card1 p{
+    margin: 10px;
+    opacity: 80px;
+ }
+
+ .card1 h3{
+    margin:10px;
+    position: relative;
+    top: 10px;
+ }
+
+ .card1 button{
+    background-color: rgb(255, 0, 98);
+    color: white;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    cursor: pointer;
+ }
+
+
+ .card2{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+ .card2 img {
+    width: 120px;
+    height: 130px;
+    object-fit: contain;
+ }
+
+ .card2 h1 {
+    text-align: center;
+    color: aqua;
+    margin: 20px;
+ }
+
+  .card2 p{
+    margin: 10px;
+    opacity: 80px;
+ }
+
+ .card2 h3{
+    margin:10px;
+    position: relative;
+    top: 10px;
+ }
+
+ .card2 button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    cursor: pointer;
+ }
+
+
+
+
+ .card3{
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 150px;
+}
+ .card3 img {
+    width: 120px;
+    height: 130px;
+    object-fit: contain;
+ }
+
+ .card3 h1 {
+    text-align: center;
+    color: aqua;
+    margin: 20px;
+ }
+
+  .card3 p{
+    margin: 10px;
+    opacity: 80px;
+ }
+
+ .card3 h3{
+    margin:10px;
+    position: relative;
+    top: 10px;
+ }
+
+ .card3 button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    padding: 20px;
+    cursor: pointer;
+ } 

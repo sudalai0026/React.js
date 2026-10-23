@@ -1,0 +1,28 @@
+.logbox{
+    background-color: burlywood;
+    
+    width: 600px;
+    height: 700px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.fullbox{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.inpu{
+    padding: 15px 110px 15px 110px;
+    font-size: 15px;
+}
+
+.tap{
+    position: relative;
+    bottom: 80px;
+}

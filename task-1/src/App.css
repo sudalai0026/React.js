@@ -1,0 +1,14 @@
+
+
+body {
+    background-color: rgb(112, 112, 204);
+}
+
+
+
+.product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
