@@ -1,9 +1,9 @@
 body{
-    background-color: rgb(30, 91, 223);
+    background:linear-gradient(134deg,#5a3d3d,50%,rgb(105, 89, 112));
 }
 .container {
     display: flex;
-    flex-wrap: warp;
+    flex-wrap: wrap;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
@@ -12,11 +12,18 @@ body{
 }
 
 .con {
+    border-radius: 10px;
     height: 500px;
     width: 300px;
-    background-color: rgb(243, 93, 67);
+    background:linear-gradient(135deg,#272626,50%,rgb(17, 17, 63));
     padding: 10px 20px 10px 20px;
+    transition: all 0.6s ease-in-out;
+    transform: scale(1);
+}
 
+.con:hover{
+    transform: scale(1.01) translateY(-4px);
+    box-shadow: 0 7px 10px rgb(74, 78, 114);
 }
 
 .imagebox {
@@ -28,11 +35,13 @@ body{
 }
 
 .img {
-
+  
+  
     width: 200%;
     height: 400px;
     object-fit: contain;
-  
+    position: relative;
+    left: -5px;
 
 
 }
@@ -45,6 +54,7 @@ h3 {
 }
 
 .button {
+      background:linear-gradient(135deg,#9e9494,50%,rgb(117, 117, 170));
     position: relative;
     left: 17px;
     margin: 0;

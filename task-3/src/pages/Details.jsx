@@ -8,13 +8,13 @@ import { useParams } from "react-router-dom"
 function Details() {
 
     const [Details, setDetails] = useState(null)
-    
-    const {_id}=useParams();
+
+    const { _id } = useParams();
 
     useEffect(() => {
         axios.get(`https://backend-crud-one.vercel.app/product/${_id}`)
             .then((res) =>
-            setDetails(res.data))
+                setDetails(res.data))
 
             .catch((Error) => {
                 console.log(Error)
@@ -28,18 +28,18 @@ function Details() {
             <Navbar />
 
             <div className="box1">
-            
-     {Details &&
-             <div className="box2">
-                 <img className="img" src={Details.image} />
-                 <div className="para">
-                 <p><b>Releasedate:</b>{Details.releasedate}</p>
-                 <p><b>Budget:</b>{Details.budget}</p>
-                 
-                 <h2>Description:{Details.description}</h2></div>
-             </div>
-               };
-           
+
+                {Details &&
+                    <div className="box2">
+                        <img className="imgi" src={Details.image} />
+                        <div className="para">
+                            <p><b>Releasedate:</b>{Details.releasedate}</p>
+                            <p><b>Budget:</b>{Details.budget}</p>
+                            <h2>Description:{Details.description}</h2>
+                        </div>
+                    </div>
+                };
+
             </div>
         </>
     )
